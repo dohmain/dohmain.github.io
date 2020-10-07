@@ -1700,6 +1700,9 @@ input, select, textarea {
 			background-color: #43bff0;
 			color: #fff !important;
 		}
+		.button:hover > .fa-file-download {
+				color: #f2a163;
+		}
 
 		input[type="button"]:active,
 		input[type="submit"]:active,
@@ -2442,4 +2445,28 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+
+	.fa-file-download {
+		padding-right: 1em;
+	}
+
+	/* .fa-file-download:hover {
+		color: #d17c3a;
+	} */
+
+	.project-shot {
+		max-width: 250px;
+	}
+
+	.tech-icon {
+		height: 45px;
+	}
+
+	.project-tech-img {
+		height: 15px;
+	}
+
+	#tech-container {
+		margin: 0 auto;
 	}
